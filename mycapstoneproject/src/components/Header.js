@@ -3,9 +3,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="header">
-           <img src='' alt='Little Lemon Logo'/>
-        </div>
+         <img src={require('./littlelemonlogo.png')} width={200} height={90} alt="Logo" />
         )}
 
 
